@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="shortcut icon"
+          href="https://venngage-wordpress.s3.amazonaws.com/uploads/2022/09/meme_doge_dog.png"
+          type="image/x-icon">
+
+    <title>nobthuan | ha</title>
+
+    <link rel="stylesheet" href="./assets/home.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="author" content="Thuan">
+    <meta property="og:title" content="HELLO TACHI HẢO - CHÀO MỪNG ĐẾN VỚI WEBSITE CỦA MÌNH !">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thanhdieu.com/">
+    <meta property="og:image" content="https://static.thenounproject.com/png/105260-200.png">
+    <meta property="og:image:width" content="120">
+    <meta property="og:image:height" content="120">
+    <meta property="og:site_name" content="MrThuan">
+    <meta name="theme-color" content="#00FFFF" />
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="profile-card">
+
+        <div class="profile-header">
+            <img src="https://media.tenor.com/jWRFHjiNdkgAAAAd/anime-dance.gif" alt="">
+        </div>
+
+        <div class="profile-body">
+
+            <div class="author-img">
+                <img src="https://i.pinimg.com/736x/c0/52/26/c05226b8b1332ece299176bf96320aa4.jpg" alt="">
+            </div>
+
+            <button onClick="facebook()" class="bubbly-button">
+                <i class="fa fa-facebook-f"></i> Facebook
+            </button>
+
+            <button onClick="messenger()" class="bubbly-button">
+                <i class="fab">&#xf39f;</i> Messenger
+            </button>
+
+            <br><br>
+            <hr class="ThanhGachNgang">
+            <br><br>
+
+            <!-- SOCIAL BUTTONS -->
+            <div class="btn-social">
+
+                <a href="https://www.youtube.com/channel/UC_8t8aHxQEDqhddDAfKtyWA" style="text-decoration:none;">
+                    <div style="background: linear-gradient(138deg, #dd6969 0%, #de5e5e 21%, #df5656 37%, #df5656 46%, #eb312b 66%);">
+                        <i class="fab fa-youtube"></i> YouTube
+                    </div>
+                </a>
+
+                <br>
+
+                <a href="https://github.com/WusThanhDieu" style="text-decoration:none;">
+                    <div style="background: linear-gradient(90deg, #222 0%, #202020 50%, #2e2d2d 100%);">
+                        <i class="fa fa-github"></i> Github
+                    </div>
+                </a>
+
+                <br>
+
+                <a href="https://dsc.bio/lhv" style="text-decoration:none;">
+                    <div style="background: linear-gradient(139deg, #5865f2 41%, #581493 95%);">
+                        <i class="fab fa-discord"></i> Discord
+                    </div>
+                </a>
+
+                <br>
+
+                <a href="https://t.me/vthuann18" style="text-decoration:none;">
+                    <div style="background: linear-gradient(139deg, #00ffff 41%, #00ffff 85%);">
+                        <i class="fa fa-telegram"></i> Telegram
+                    </div>
+                </a>
+
+                <br>
+            </div>
+
+            <br>
+            <hr class="ThanhGachNgang">
+            <br>
+
+            <p style="color:#fff; font-size:12px;">
+                Created by MrNobThuan<br>
+                <strong>All rights reserved - © 2025</strong>
+            </p>
+
+            <br>
+
+            <script src="./assets/index.js"></script>
+            <script>
+                var animateButton = function(e) {
+                    e.preventDefault;
+                    e.target.classList.remove('animate');
+                    e.target.classList.add('animate');
+                    setTimeout(function() {
+                        e.target.classList.remove('animate');
+                    }, 700);
+                };
+
+                var bubblyButtons = document.getElementsByClassName("bubbly-button");
+                for (var i = 0; i < bubblyButtons.length; i++) {
+                    bubblyButtons[i].addEventListener('click', animateButton, false);
+                }
+
+                function facebook() {
+                    setTimeout(function() {
+                        window.open('https://www.facebook.com/ng.thuan.978716', '_blank')
+                    }, 100);
+                }
+
+                function messenger() {
+                    setTimeout(function() {
+                        window.open('https://www.messenger.com/t/100035052735014/', '_blank')
+                    }, 100);
+                }
+            </script>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
